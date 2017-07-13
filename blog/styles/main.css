@@ -31,38 +31,93 @@ abbr, acronym {
 	border: 0;
 	}
 
-h1 {
-  font-size: 50px;
-  font-family: 'Trebuchet MS', Helvetica, sans-serif;
-  color: rgb(0,0,0);
+.h1 {
+	font-size: 50px;
+	font-family: 'Fira Sans', sans-serif;
+	color: black;
   text-align: center;
 }
 
-h2 {
-  font-size: 20px;
-  font-family: 'Trebuchet MS', Helvetica, sans-serif;
-  color: rgb(0,0,0);
+.h1-index {
+	font-size: 200px;
+	font-family: 'Fira Sans', sans-serif;
+	color: white;
+  text-align: center;
+	text-shadow: 2px, 2px, 2px, rgb(255, 0, 0);
+}
+
+.h2 {
+	font-size: 24px;
+	font-family: 'Fira Sans', sans-serif;
+	color: black;
   text-align: center;
 }
 
-.design {
+.h3 {
+	font-size: 16px;
+	font-weight: bold;
+	font-family: 'Fira Sans', sans-serif;
+	color: black;
+	indent: 10px;
+	margin-left: 350px;
+}
+
+section {
+	float: left;
+	width: 73%;
+	line-height: 200%;
+}
+
+aside {
+	float: right;
+	width: 20%;
+}
+
+.p {
+	font-size: 16px;
+	font-family: 'Fira Sans', sans-serif;
+	color: black;
   text-align: left;
-  font-family: 'Trebuchet MS', 'Open Sans, Helvetica, sans-serif;
-  color: rgb(0,0,0);
-  font-size: 16px;
-  indent: 1.8px;
+  indent: 10px;
+	margin-left: 350px;
 }
 
 .image {
   text-align: center;
 }
 
-.hyperlinks {
-  color: rgb(0,0,0);
-  text-align: center;
-  font-size: 16px;
-  font-family: 'Trebuchet MS', 'Open Sans, Helvetica, sans-serif;
-  text-decoration-color: rgb(0,102,0);
-  indent: 1.8px;
-  padding-top: 100px;
+a:link {
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: 'Fira Sans', sans-serif;
+	color: rgb(0,0,0);
+	text-shadow: 2px, 2px, 4px, rgb(255, 0, 0);
+}
+
+a:visited {
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: 'Fira Sans', sans-serif;
+	color: rgb(0,0,0);
+	text-shadow: 2px, 2px, 4px, rgb(255, 0, 0);
+}
+
+a:hover {
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: 'Fira Sans', sans-serif;
+	color: rgb(64,64,64);
+	text-shadow: 2px, 2px, 4px, rgb(255, 0, 0);
+}
+
+a:active {
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: 'Fira Sans', sans-serif;
+	color: rgb(64,64,64);
+	text-shadow: 2px, 2px, 4px, rgb(255, 0, 0);
 }
