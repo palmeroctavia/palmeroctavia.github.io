@@ -31,10 +31,30 @@ abbr, acronym {
 	border: 0;
 	}
 
+/* Structural elements */
 body {
 	background-repeat: no-repeat;
 }
 
+section {
+	float: left;
+	width: 85%;
+	line-height: 200%;
+}
+
+aside {
+	float: right;
+	width: 15%;
+}
+
+footer {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 100px;
+	clear: both;
+}
+
+/* Headings */
 h1 {
 	font-size: 120px;
 	font-family: 'Shrikhand', cursive;
@@ -73,17 +93,7 @@ h4 {
 	text-align: left;
 }
 
-section {
-	float: left;
-	width: 85%;
-	line-height: 200%;
-}
-
-aside {
-	float: right;
-	width: 15%;
-}
-
+/* Body elements */
 p {
 	font-size: 16px;
 	font-family: 'Fira Sans', sans-serif;
@@ -99,13 +109,13 @@ img {
 	padding-bottom: 20px;
 }
 
-footer {
-	padding-top: 30px;
-	padding-bottom: 30px;
-	padding-left: 100px;
-	clear: both;
+ul {
+	list-style-type: none;
+	text-align: left;
+	padding-bottom: 20px;
 }
 
+/* hyperlinks */
 a:link {
 	font-size: 20px;
 	font-weight: bold;
@@ -148,12 +158,6 @@ a:active {
 	color: rgb(64,64,64);
 	text-shadow: 2px, 2px, 4px, rgb(255, 0, 0);
 	line-height: 200%;
-}
-
-ul {
-	list-style-type: none;
-	text-align: left;
-	padding-bottom: 20px;
 }
 
 .navigation ul {
