@@ -60,7 +60,7 @@ h1 {
 	font-family: 'Shrikhand', cursive;
 	color: white;
   text-align: center;
-	text-shadow: 2px, 2px, 2px, rgb(255, 0, 0);
+	text-shadow: 2px 2px #838f9b;
 	padding-top: 160px;
 	padding-bottom: 100px;
 }
@@ -115,10 +115,6 @@ ul {
 	padding-bottom: 20px;
 }
 
-.home-background {
-	background-image: "images/annie-spratt-42459.jpg"
-}
-
 /* hyperlinks */
 a:link {
 	font-size: 20px;
@@ -127,7 +123,7 @@ a:link {
 	text-transform: uppercase;
 	font-family: 'Fira Sans', sans-serif;
 	color: rgb(0,0,0);
-	text-shadow: 2px, 2px, 2px, rgb(255, 0, 0);
+	text-shadow: 2px 2px #838f9b;
 	line-height: 200%;
 }
 
@@ -138,7 +134,7 @@ a:visited {
 	text-transform: uppercase;
 	font-family: 'Fira Sans', sans-serif;
 	color: rgb(0,0,0);
-	text-shadow: 2px, 2px, 2px, rgb(255, 0, 0);
+	text-shadow: 2px 2px #838f9b;
 	line-height: 200%;
 }
 
@@ -149,7 +145,7 @@ a:hover {
 	text-transform: uppercase;
 	font-family: 'Fira Sans', sans-serif;
 	color: rgb(64,64,64);
-	text-shadow: 2px, 2px, 2px, rgb(255, 0, 0);
+	text-shadow: 2px 2px #838f9b;
 	line-height: 200%;
 }
 
@@ -160,7 +156,7 @@ a:active {
 	text-transform: uppercase;
 	font-family: 'Fira Sans', sans-serif;
 	color: rgb(64,64,64);
-	text-shadow: 2px, 2px, 4px, rgb(255, 0, 0);
+	text-shadow: 2px 2px #838f9b;
 	line-height: 200%;
 }
 
@@ -181,7 +177,7 @@ a:active {
 	margin-left: 100px;
 	font-family: 'Fira Sans', sans-serif;
 	color: rgb(255,255,255);
-	text-shadow: 2px, 2px, 2px;
+	text-shadow: 2px 2px #838f9b;
 	padding-bottom: 40px;
 }
 
@@ -192,7 +188,7 @@ a:active {
 	margin-left: 100px;
 	font-family: 'Fira Sans', sans-serif;
 	color: rgb(255,255,255);
-	text-shadow: 2px, 2px, 2px;
+	text-shadow: 2px 2px #838f9b;
 	padding-bottom: 40px;
 }
 
@@ -203,7 +199,7 @@ a:active {
 	margin-left: 100px;
 	font-family: 'Fira Sans', sans-serif;
 	color: rgb(64,64,64);
-	text-shadow: 2px, 2px, 2px;
+	text-shadow: 2px 2px #838f9b;
 	padding-bottom: 40px;
 }
 
@@ -214,6 +210,6 @@ a:active {
 	margin-left: 100px;
 	font-family: 'Fira Sans', sans-serif;
 	color: rgb(255,255,255);
-	text-shadow: 2px, 2px, 2px;
+	text-shadow: 2px 2px #838f9b;
 	padding-bottom: 40px;
 }
