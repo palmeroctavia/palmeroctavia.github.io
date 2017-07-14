@@ -31,29 +31,34 @@ abbr, acronym {
 	border: 0;
 	}
 
-.h1 {
-	font-size: 50px;
-	font-family: 'Fira Sans', sans-serif;
-	color: black;
-  text-align: center;
+body {
+	background-repeat: no-repeat;
 }
 
-.h1-index {
-	font-size: 200px;
-	font-family: 'Fira Sans', sans-serif;
+.h1 {
+	font-size: 160px;
+	font-family: 'Shrikhand', cursive;
 	color: white;
   text-align: center;
 	text-shadow: 2px, 2px, 2px, rgb(255, 0, 0);
 }
 
 .h2 {
+	font-size: 50px;
+	font-family: 'Fira Sans', sans-serif;
+	text-transform: uppercase;
+	color: black;
+  text-align: center;
+}
+
+.h3 {
 	font-size: 24px;
 	font-family: 'Fira Sans', sans-serif;
 	color: black;
   text-align: center;
 }
 
-.h3 {
+.h4 {
 	font-size: 16px;
 	font-weight: bold;
 	font-family: 'Fira Sans', sans-serif;
@@ -77,19 +82,22 @@ aside {
 	font-size: 16px;
 	font-family: 'Fira Sans', sans-serif;
 	color: black;
-  text-align: left;
   indent: 10px;
 	margin-left: 350px;
+	padding-bottom: 20px;
 }
 
 .image {
   text-align: center;
+	padding-top: 20px;
+	padding-bottom: 30px;
 }
 
 a:link {
 	font-size: 20px;
 	font-weight: bold;
 	text-decoration: none;
+	text-transform: uppercase;
 	font-family: 'Fira Sans', sans-serif;
 	color: rgb(0,0,0);
 	text-shadow: 2px, 2px, 4px, rgb(255, 0, 0);
@@ -99,6 +107,7 @@ a:visited {
 	font-size: 20px;
 	font-weight: bold;
 	text-decoration: none;
+	text-transform: uppercase;
 	font-family: 'Fira Sans', sans-serif;
 	color: rgb(0,0,0);
 	text-shadow: 2px, 2px, 4px, rgb(255, 0, 0);
@@ -108,6 +117,7 @@ a:hover {
 	font-size: 20px;
 	font-weight: bold;
 	text-decoration: none;
+	text-transform: uppercase;
 	font-family: 'Fira Sans', sans-serif;
 	color: rgb(64,64,64);
 	text-shadow: 2px, 2px, 4px, rgb(255, 0, 0);
@@ -117,7 +127,63 @@ a:active {
 	font-size: 20px;
 	font-weight: bold;
 	text-decoration: none;
+	text-transform: uppercase;
 	font-family: 'Fira Sans', sans-serif;
 	color: rgb(64,64,64);
+	text-shadow: 2px, 2px, 4px, rgb(255, 0, 0);
+}
+
+ul {
+	list-style-type: circle;
+	margin-left: 20px;
+}
+
+.navigation ul {
+	text-transform: uppercase;
+	list-style-type: none;
+	margin-left: 100px;
+}
+
+.navigation li {
+	display: inline-block;
+}
+
+.navigation a:link {
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 100px;
+	font-family: 'Fira Sans', sans-serif;
+	color: white;
+	text-shadow: 2px, 2px, 4px, rgb(255, 0, 0);
+}
+
+.navigation a:visited {
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 100px;
+	font-family: 'Fira Sans', sans-serif;
+	color: white;
+	text-shadow: 2px, 2px, 4px, rgb(255, 0, 0);
+}
+
+.navigation a:hover {
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 100px;
+	font-family: 'Fira Sans', sans-serif;
+	color: rgb(0,0,0);
+	text-shadow: 2px, 2px, 4px, rgb(255, 0, 0);
+}
+
+.navigation a:active {
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 100px;
+	font-family: 'Fira Sans', sans-serif;
+	color: white;
 	text-shadow: 2px, 2px, 4px, rgb(255, 0, 0);
 }
