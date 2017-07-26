@@ -33,19 +33,19 @@ abbr, acronym {
 
 /* Structural elements */
 #background-img-reflections {
-	background:url("images/reflections-nav-button.jpeg");
+	background-image:url("images/reflections-nav-button.jpg");
 }
 
 #background-img-technical{
-	background:url("images/technical-nav-button.jpeg");
+	background-image:url("images/technical-nav-button.jpg");
 }
 
 #background-img-cultural {
-	background:url("images/cultural-nav-button.jpeg");
+	background-image:url("images/cultural-nav-button.jpg");
 }
 
 #background-img-index-web-banner {
-	background:url("images/web-banner-index.jpeg");
+	background-image:url("images/web-banner-index.jpg");
 }
 
 /* Headings */
