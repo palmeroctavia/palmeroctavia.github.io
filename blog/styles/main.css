@@ -32,26 +32,12 @@ abbr, acronym {
 	}
 
 /* Structural elements */
-#background-img-reflections {
-	background-image:url("images/reflections-nav-button.jpg");
-}
 
-#background-img-technical{
-	background-image:url("images/technical-nav-button.jpg");
-}
-
-#background-img-cultural {
-	background-image:url("images/cultural-nav-button.jpg");
-}
-
-#background-img-index-web-banner {
-	background-image:url("images/web-banner-index.jpg");
-}
 
 /* Headings */
 h1 {
 	font-family: 'Calligraffitti', cursive;
-	font-size: 50px;
+	font-size: 100px;
 	color: black;
   text-align: center;
 	margin-top: 30px;
@@ -82,7 +68,7 @@ h5 {
 	text-transform: uppercase;
 	color: black;
   text-align: center;
-	word-spacing: 30px;
+	word-spacing: 50px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
