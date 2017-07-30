@@ -42,24 +42,27 @@ body {text-align:center;}
 /* Headings */
 h1 {
 	font-family: 'Calligraffitti', cursive;
-	font-size: 100px;
+	font-size: 2em;
 	color: black;
   text-align: center;
 	margin-top: 30px;
-	margin-bottom: 50px;
+	margin-bottom: 10px;
 }
 
 h2 {
-  font-family: 'News Cycle', sans-serif;
-	text-transform: uppercase;
+  font-family: 'Calligraffitti', cursive;
+	font-size: 1em;
 	color: black;
   text-align: center;
+	margin-bottom: 20px;
 }
 
 h3 {
-	font-family: 'Calligraffitti', cursive;
+	font-family: 'News Cycle', sans-serif;
 	color: black;
-  text-align: left;
+  text-align: center;
+	text-transform: uppercase;
+	word-spacing: 1.5em;
 }
 
 h4 {
@@ -155,4 +158,22 @@ a:active {
 .navigation a:active {
 	font-weight: bold;
 	font-family: 'News Cycle', sans-serif;
+}
+
+/* Media Queries */
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+	#banner{
+		background-image: url("images/banner-mobile.jpg");
+		width:100%;
+	}
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+	#banner{
+			background-image: url("images/banner-desktop.jpg");
+			width:100%;
+	}
 }
