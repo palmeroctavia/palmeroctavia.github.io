@@ -43,16 +43,6 @@ header {
 	background-position: center;
 }
 
-header.index {
-	background-image: url("images/banner-desktop.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-section.index {
-	background-color: #ffffff;
-}
-
 /* Semantic elements */
 footer {
 	padding: 20px;
@@ -60,45 +50,50 @@ footer {
 
 /* Typographical elements */
 h1 {
-	font-family: 'Londrina Outline', cursive;
+	font-family: 'Coustard', serif;
 	color: #ffffff;
-  text-align: center;
+  text-align: right;
+	padding: 15px;
 }
 
 @media only screen and (min-width: 400px){
 	h1 {
-		font-size: 3em;
+		font-size: 2em;
 	}
 }
 
 @media only screen and (min-width: 960px){
 	h1 {
-		font-size: 4em;
+		font-size: 2.2em;
 	}
 }
 
 h2 {
-  font-family: 'News Cycle', sans-serif;
+  font-family: 'Coustard', serif;
+	font-weight: 400;
 	color: #ffffff;
-  text-align: center;
+  text-align: right;
+	padding-right: 15px;
 }
 
 @media only screen and (min-width: 400px){
 	h2 {
-		font-size: 1.4em;
+		font-size: 1.8em;
 	}
 }
 
 @media only screen and (min-width: 960px){
 	h2 {
-		font-size: 1.5em;
+		font-size: 1.9em;
 	}
 }
 
 h3 {
-	font-family: 'News Cycle', sans-serif;
+	font-family: 'Coustard', serif;
 	color: #ffffff;
-  text-align: center;
+  text-align: right;
+	padding-right: 15px;
+	margin-bottom: 15px;
 }
 
 @media only screen and (min-width: 400px){
@@ -135,22 +130,22 @@ h4 {
 h5 {
 	font-family: 'News Cycle', sans-serif;
 	color: #000000;
-  text-align: right;
-	text-transform: uppercase;
+  text-align: left;
 	font-weight: 400;
 	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
+	word-spacing: 1.5em;
 }
 
 @media only screen and (min-width: 400px){
 	h5 {
-		font-size: 1.1em;
+		font-size: 0.7em;
 	}
 }
 
 @media only screen and (min-width: 400px){
 	h5 {
-		font-size: 1.2em;
+		font-size: 0.8em;
 	}
 }
 
@@ -164,6 +159,13 @@ p {
 	text-align: left;
 	line-height: 1.2em;
   }
+
+li {
+	font-family: 'News Cycle', sans-serif;
+	color: color: #000000;
+	text-align: left;
+	line-height: 1.2em;
+}
 
 @media only screen and (max-width: 400px){
 	p {
