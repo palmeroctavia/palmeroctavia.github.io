@@ -43,6 +43,12 @@ header {
 	background-position: center;
 }
 
+@media only screen and (min-width: 400px){
+	header {
+		width: 40%
+	}
+}
+
 /* Semantic elements */
 footer {
 	padding: 20px;
@@ -167,13 +173,13 @@ li {
 	line-height: 1.2em;
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (min-width: 400px){
 	p {
 		font-size: 1em;
 	}
 }
 
-@media only screen and (max-width: 960px){
+@media only screen and (min-width: 960px){
 	p {
 		font-size: 1.1em;
 	}
@@ -198,5 +204,17 @@ a:visited {
 /* Images */
 img {
 	padding: 10px;
-	margin: 10px;
+	align-items: center;
+}
+
+@media only screen and (min-width: 400px){
+	img {
+		width: 40%
+	}
+}
+
+@media only screen and (min-width: 960px){
+	img {
+		width: 100%
+	}
 }
