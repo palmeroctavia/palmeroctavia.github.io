@@ -172,49 +172,35 @@ img > .center {
 }
 
 /* Navigation */
-.logo {
-	color: #000000;
-	float: left;
-	padding-left: 25px;
-	font-size: 16px;
-	font-weight: bold;
-}
-
-.logo > a {
-	text-decoration: none;
-	color: #000000;
-}
-
-.banner {
-	width:100%;
-	display: block;
-}
-
-.banner > .banner-image {
-	display:block;
-	margin: 0;
-	padding: 0;
-}
-
-.nav {
+nav {
 	background-color: #ffffff;
 	color: #000000;
 	list-style: none;
-	text-align: right;
-	font-size: 14px;
+	text-align: left;
+	font-size: 0.6em;
 	padding: 0 0 0 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: block;
+	word-spacing: 2em;
 }
 
-.nav > li {
+nav > li {
 	display: inline-block;
 	padding: 0 25px 0 25px;
 }
 
-.nav > li > a {
+nav > a {
 	text-decoration: none;
 	color: #ffffff;
 }
 
-.nav > li > a:hover{
+nav > a:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+nav > a:visited {
+	text-decoration: none;
 	color: #ffffff;
 }
