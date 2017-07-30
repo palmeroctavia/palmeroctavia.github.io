@@ -37,9 +37,17 @@ abbr, acronym {
 }
 
 /* Backgrounds */
+header > .index {
+	background-image: url("images/banner-desktop.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
 
+section > .index {
+	background-color: #BDB76B;
+}
 
-/* Headings */
+/* Typographical elements */
 h1 {
 	font-family: 'Buda', cursive;
 	color: #000000;
@@ -118,14 +126,13 @@ h5 {
   text-align: center;
 }
 
-/* Text styles */
 em {
 	font-style: italic;
 }
 
 p {
 	font-family: 'News Cycle', sans-serif;
-	color: black;
+	color: color: #000000;
 	text-align: left;
   }
 
@@ -141,55 +148,19 @@ p {
 	}
 }
 
-/* Body elements */
+/* Hyperlinks */
 
 a {
-	text-align: center;
-}
-
-ul {
-	list-style-type: none;
-	text-align: left;
-}
-
-table > .center {
-  margin-left:auto;
-  margin-right:auto;
-	display: block;
-}
-
-img > .center {
-	margin-left:auto;
-  margin-right:auto;
-	display: block;
-}
-
-/* Navigation */
-nav {
-	background-color: #ffffff;
+	text-decoration: none;
 	color: #000000;
-	list-style: none;
-	text-align: left;
-	font-size: 1em;
-	text-align: center;
 }
 
-nav > li {
-	display: inline-block;
-	padding: 0 25px 0 25px;
-}
-
-nav > a {
+a:hover {
 	text-decoration: none;
-	color: #ffffff;
+	color: #000000;
 }
 
-nav > a:hover {
+a:visited {
 	text-decoration: none;
-	color: #ffffff;
-}
-
-nav > a:visited {
-	text-decoration: none;
-	color: #ffffff;
+	color: #000000;
 }
