@@ -37,26 +37,37 @@ abbr, acronym {
 }
 
 /* Backgrounds */
-header > .index {
+header {
 	background-image: url("images/banner-desktop.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
-section > .index {
-	background-color: #BDB76B;
+header.index {
+	background-image: url("images/banner-desktop.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+section.index {
+	background-color: #ffffff;
+}
+
+/* Semantic elements */
+footer {
+	padding: 20px;
 }
 
 /* Typographical elements */
 h1 {
 	font-family: 'Buda', cursive;
-	color: #000000;
+	color: #ffffff;
   text-align: center;
 }
 
 @media only screen and (min-width: 400px){
 	h1 {
-		font-size: 2em;
+		font-size: 3em;
 	}
 }
 
@@ -68,37 +79,37 @@ h1 {
 
 h2 {
   font-family: 'News Cycle', sans-serif;
-	color: #000000;
+	color: #ffffff;
   text-align: center;
 }
 
 @media only screen and (min-width: 400px){
 	h2 {
-		font-size: 1.8em;
+		font-size: 1.4em;
 	}
 }
 
 @media only screen and (min-width: 960px){
 	h2 {
-		font-size: 2em;
+		font-size: 1.5em;
 	}
 }
 
 h3 {
 	font-family: 'News Cycle', sans-serif;
-	color: #000000;
+	color: #ffffff;
   text-align: center;
 }
 
 @media only screen and (min-width: 400px){
 	h3 {
-		font-size: 1.6em;
+		font-size: 1.3em;
 	}
 }
 
 @media only screen and (min-width: 960px){
 	h3 {
-		font-size: 1.8em;
+		font-size: 1.4em;
 	}
 }
 
@@ -106,24 +117,41 @@ h4 {
 	font-family: 'News Cycle', sans-serif;
 	color: #000000;
   text-align: left;
+	margin-top: 1.1em;
 }
 
 @media only screen and (min-width: 400px){
 	h4 {
-		font-size: 1em;
+		font-size: 1.2em;
 	}
 }
 
 @media only screen and (min-width: 400px){
 	h4 {
-		font-size: 1.5em;
+		font-size: 1.3em;
 	}
 }
 
 h5 {
 	font-family: 'News Cycle', sans-serif;
 	color: #000000;
-  text-align: center;
+  text-align: right;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 400px){
+	h5 {
+		font-size: 1.1em;
+	}
+}
+
+@media only screen and (min-width: 400px){
+	h5 {
+		font-size: 1.2em;
+	}
 }
 
 em {
@@ -134,22 +162,22 @@ p {
 	font-family: 'News Cycle', sans-serif;
 	color: color: #000000;
 	text-align: left;
+	line-height: 1.2em;
   }
 
 @media only screen and (max-width: 400px){
 	p {
-		font-size: 0.9em;
+		font-size: 1em;
 	}
 }
 
 @media only screen and (max-width: 960px){
 	p {
-		font-size: 1.4em;
+		font-size: 1.1em;
 	}
 }
 
 /* Hyperlinks */
-
 a {
 	text-decoration: none;
 	color: #000000;
@@ -163,4 +191,10 @@ a:hover {
 a:visited {
 	text-decoration: none;
 	color: #000000;
+}
+
+/* Images */
+img {
+	padding: 10px;
+	margin: 10px;
 }
