@@ -41,17 +41,6 @@ header {
 	background-color: #000000;
 }
 
-@media only screen and (min-width: 400px){
-	header {
-		width: 40%
-	}
-}
-
-@media only screen and (min-width: 960px){
-	header {
-		width: 100%
-	}
-}
 
 /* Semantic elements */
 footer {
@@ -212,12 +201,14 @@ img {
 
 @media only screen and (min-width: 400px){
 	img {
-		width: 40%
+		width: 80%;
+		padding-left: 35px;
 	}
 }
 
 @media only screen and (min-width: 960px){
 	img {
-		width: 100%
+		width: 100%;
+		padding-left: 0;
 	}
 }
